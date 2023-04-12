@@ -295,8 +295,8 @@ mod tests {
 
         let json = json!("2020-01-01T00:10:00");
         let value: LastScan = serde_json::from_value(json).unwrap();
-        let date = NaiveDate::from_ymd(2020, 1, 1);
-        let time = NaiveTime::from_hms(0, 10, 0);
+        let date = NaiveDate::from_ymd_opt(2020, 1, 1).unwrap();
+        let time = NaiveTime::from_hms_opt(0, 10, 0).unwrap();
         assert_eq!(value, LastScan::DateTime(NaiveDateTime::new(date, time)))
     }
 

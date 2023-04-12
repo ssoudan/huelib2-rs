@@ -80,7 +80,7 @@
 //!     # let bridge = Bridge::new(IpAddr::V4(Ipv4Addr::new(192, 168, 1, 2)), String::new());
 //!     // let bridge = Bridge::new(...);
 //!     let creator = group::Creator::new("example".into(), vec!["1".into()])
-//!         .with_class(group::Class::Office);
+//!         .with_class("Office".to_string());
 //!     let id = bridge.create_group(&creator)?;
 //!     println!("Created group with id `{}`", id);
 //!     # Ok(())
@@ -99,7 +99,7 @@
 //!     # let bridge = Bridge::new(IpAddr::V4(Ipv4Addr::new(192, 168, 1, 2)), String::new());
 //!     // let bridge = Bridge::new(...);
 //!     let id = group::Creator::new("example".into(), vec!["1".into()])
-//!         .with_class(group::Class::Office)
+//!         .with_class("Office".to_string())
 //!         .execute(&bridge)?;
 //!     println!("Created group with id `{}`", id);
 //!     # Ok(())

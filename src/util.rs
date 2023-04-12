@@ -107,8 +107,8 @@ mod tests {
 
         let json = json!("2020-01-01T01:30:00");
         let value = super::deserialize_option_date_time(json).unwrap();
-        let date = NaiveDate::from_ymd(2020, 1, 1);
-        let time = NaiveTime::from_hms(1, 30, 0);
+        let date = NaiveDate::from_ymd_opt(2020, 1, 1).unwrap();
+        let time = NaiveTime::from_hms_opt(1, 30, 0).unwrap();
         assert_eq!(value, Some(NaiveDateTime::new(date, time)));
     }
 
@@ -124,6 +124,6 @@ mod tests {
 
         let json = json!("T02:00:20");
         let value = super::deserialize_option_time(json).unwrap();
-        assert_eq!(value, Some(NaiveTime::from_hms(2, 0, 20)));
+        assert_eq!(value, Some(NaiveTime::from_hms_opt(2, 0, 20).unwrap()));
     }
 }

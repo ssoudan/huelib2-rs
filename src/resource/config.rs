@@ -352,8 +352,8 @@ mod tests {
             touchlink: Some(false),
             zigbee_channel: Some(1),
             current_time: Some(NaiveDateTime::new(
-                NaiveDate::from_ymd(2020, 1, 1),
-                NaiveTime::from_hms(0, 0, 0),
+                NaiveDate::from_ymd_opt(2020, 1, 1).unwrap(),
+                NaiveTime::from_hms_opt(0, 0, 0).unwrap(),
             )),
             timezone: Some("Europe/Berlin".into()),
         };
