@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
+### Commit Statistics
+
+<csr-read-only-do-not-edit/>
+
+ - 1 commit contributed to the release.
+ - 0 commits were understood as [conventional](https://www.conventionalcommits.org).
+ - 0 issues like '(#ID)' were seen in commit messages
+
+### Commit Details
+
+<csr-read-only-do-not-edit/>
+
+<details><summary>view details</summary>
+
+ * **Uncategorized**
+    - [fix] tests ([`dbd8fe6`](https://github.com/ssoudan/huelib2-rs/commit/dbd8fe6342feffc9b6b5aeda6cb021a504e7c643))
+</details>
+
 ## v0.13.2 (2023-04-18)
 
 <csr-id-fa295bbb8ded18e2fc03482cf1c6b30ce208de2d/>
@@ -17,7 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <csr-read-only-do-not-edit/>
 
- - 206 commits contributed to the release over the course of 1122 calendar days.
+ - 207 commits contributed to the release over the course of 1122 calendar days.
  - 1 commit was understood as [conventional](https://www.conventionalcommits.org).
  - 3 unique issues were worked on: [#18](https://github.com/ssoudan/huelib2-rs/issues/18), [#19](https://github.com/ssoudan/huelib2-rs/issues/19), [#20](https://github.com/ssoudan/huelib2-rs/issues/20)
 
@@ -34,6 +54,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  * **[#20](https://github.com/ssoudan/huelib2-rs/issues/20)**
     - Fix for TV is in the group list ([`9d7ad0d`](https://github.com/ssoudan/huelib2-rs/commit/9d7ad0d4e1c669c36d0eef61733c12db0c3ff830))
  * **Uncategorized**
+    - Release huelib2 v0.13.2 ([`b41c330`](https://github.com/ssoudan/huelib2-rs/commit/b41c330f5a7718a6189535f7309a4ba0a84b6e09))
     - Release huelib2 v0.13.2 ([`656b57e`](https://github.com/ssoudan/huelib2-rs/commit/656b57ee089e9eab6521c81f745aa0777d335f84))
     - Release huelib2 v0.13.2 ([`a5eabda`](https://github.com/ssoudan/huelib2-rs/commit/a5eabda8aa232c9ae5c54b1136b88265ac5d9cde))
     - Release huelib2 v0.13.2 ([`71f56eb`](https://github.com/ssoudan/huelib2-rs/commit/71f56ebdd80a039aea9dc56c69179fd958fecfda))
