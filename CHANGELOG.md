@@ -5,13 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## 0.13.3 (2023-04-18)
 
 ### Commit Statistics
 
 <csr-read-only-do-not-edit/>
 
- - 1 commit contributed to the release.
+ - 2 commits contributed to the release.
  - 0 commits were understood as [conventional](https://www.conventionalcommits.org).
  - 0 issues like '(#ID)' were seen in commit messages
 
@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <details><summary>view details</summary>
 
  * **Uncategorized**
+    - [changelog] ([`0e54d5f`](https://github.com/ssoudan/huelib2-rs/commit/0e54d5fba36ef498a39fb52b98aa8f4624cb852e))
     - [fix] tests ([`dbd8fe6`](https://github.com/ssoudan/huelib2-rs/commit/dbd8fe6342feffc9b6b5aeda6cb021a504e7c643))
 </details>
 
