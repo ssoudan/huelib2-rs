@@ -1,6 +1,6 @@
 //! Deletes a specific light.
 
-use huelib::{bridge, Bridge};
+use huelib2::{bridge, Bridge};
 
 fn main() {
     // Discover bridges in the local network and save the first IP address as `bridge_ip`.

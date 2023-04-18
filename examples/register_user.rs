@@ -1,6 +1,6 @@
 //! Registers a new user on a bridge and prints out the name of the new user.
 
-use huelib::bridge;
+use huelib2::bridge;
 
 fn main() {
     // Discover bridges in the local network and save the first IP address as `bridge_ip`.

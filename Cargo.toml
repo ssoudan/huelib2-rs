@@ -1,10 +1,10 @@
 [package]
-name = "huelib"
+name = "huelib2"
 description = "Rust bindings for the Philips Hue API"
 version = "0.13.2"
-authors = ["Niklas Sauter <niklas@n1ks.net>"]
+authors = ["Niklas Sauter <niklas@n1ks.net>", "Sebastien Soudan <sebastien.soudan@gmail.com>"]
 edition = "2018"
-repository = "https://github.com/nn1ks/huelib-rs"
+repository = "https://github.com/ssoudan/huelib2-rs"
 readme = "README.md"
 license = "MIT"
 categories = ["api-bindings"]
