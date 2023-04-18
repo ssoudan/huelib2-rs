@@ -13,7 +13,7 @@ Fixed tests.
 
 <csr-read-only-do-not-edit/>
 
- - 4 commits contributed to the release.
+ - 6 commits contributed to the release.
  - 0 commits were understood as [conventional](https://www.conventionalcommits.org).
  - 0 issues like '(#ID)' were seen in commit messages
 
@@ -24,6 +24,8 @@ Fixed tests.
 <details><summary>view details</summary>
 
  * **Uncategorized**
+    - [changelog] ([`ed5aafd`](https://github.com/ssoudan/huelib2-rs/commit/ed5aafda498b6adccef47705d7172a6c1b856866))
+    - Adjusting changelogs prior to release of huelib2 v0.13.3 ([`b6509e2`](https://github.com/ssoudan/huelib2-rs/commit/b6509e2968877583fc2ea845b1c029c4819d6e71))
     - [changelog] ([`5b62fed`](https://github.com/ssoudan/huelib2-rs/commit/5b62fedb0b7b6a888a944b7ea061624d47233a0b))
     - Adjusting changelogs prior to release of huelib2 v0.13.3 ([`dcf3b39`](https://github.com/ssoudan/huelib2-rs/commit/dcf3b39ebfb34e3e669058c8d9328f92e7d3b141))
     - [changelog] ([`0e54d5f`](https://github.com/ssoudan/huelib2-rs/commit/0e54d5fba36ef498a39fb52b98aa8f4624cb852e))
