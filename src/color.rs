@@ -19,7 +19,7 @@ impl Color {
     ///
     /// Generate a color and use it in a modifier:
     /// ```
-    /// use huelib::{Color, resource::light};
+    /// use huelib2::{Color, resource::light};
     ///
     /// let color = Color::from_space_coordinates(0.1, 0.2);
     /// let modifier = light::StateModifier::new().with_color(color);
@@ -39,7 +39,7 @@ impl Color {
     ///
     /// Generate a color and use it in a modifier:
     /// ```
-    /// use huelib::{Color, resource::light};
+    /// use huelib2::{Color, resource::light};
     ///
     /// let color = Color::from_rgb(255, 0, 0);
     /// let modifier = light::StateModifier::new().with_color(color);
@@ -78,9 +78,9 @@ impl Color {
     ///
     /// Generate a color and use it in a modifier:
     /// ```
-    /// use huelib::{Color, resource::light};
+    /// use huelib2::{Color, resource::light};
     ///
-    /// # fn main() -> Result<(), huelib::color::ParseHexError> {
+    /// # fn main() -> Result<(), huelib2::color::ParseHexError> {
     /// let red = Color::from_hex("#FF0000")?;
     /// let modifier = light::StateModifier::new().with_color(red);
     /// # Ok(())
@@ -89,8 +89,8 @@ impl Color {
     ///
     /// Generate a color using the short version:
     /// ```
-    /// # fn main() -> Result<(), huelib::color::ParseHexError> {
-    /// let color = huelib::Color::from_hex("#02B")?;
+    /// # fn main() -> Result<(), huelib2::color::ParseHexError> {
+    /// let color = huelib2::Color::from_hex("#02B")?;
     /// # Ok(())
     /// # }
     /// ```

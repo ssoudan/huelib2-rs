@@ -8,7 +8,7 @@ use std::{io::Error as IoError, net::AddrParseError};
 use thiserror::Error as ThisError;
 use ureq::Error as UreqError;
 
-/// Alias for `Result<T, huelib::Error>`.
+/// Alias for `Result<T, huelib2::Error>`.
 pub type Result<T> = StdResult<T, Error>;
 
 /// Errors that can occur while interacting with the Philips Hue API.

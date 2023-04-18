@@ -48,7 +48,7 @@ impl Bridge {
     ///
     /// Create a bridge with an already registered user:
     /// ```
-    /// use huelib::Bridge;
+    /// use huelib2::Bridge;
     /// use std::net::{IpAddr, Ipv4Addr};
     ///
     /// let ip = IpAddr::V4(Ipv4Addr::new(192, 168, 1, 2));

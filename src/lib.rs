@@ -31,7 +31,7 @@
 //!
 //! To able to send requests to the bridge, a [`Bridge`] must be created. For example:
 //! ```no_run
-//! use huelib::Bridge;
+//! use huelib2::Bridge;
 //! use std::net::{IpAddr, Ipv4Addr};
 //!
 //! let bridge = Bridge::new(IpAddr::V4(Ipv4Addr::new(192, 168, 1, 2)), "username");
@@ -72,10 +72,10 @@
 //! - Using the [`Bridge::create_group`] method:
 //!
 //!     ```no_run
-//!     use huelib::resource::group;
+//!     use huelib2::resource::group;
 //!
-//!     # fn main() -> huelib::Result<()> {
-//!     # use huelib::Bridge;
+//!     # fn main() -> huelib2::Result<()> {
+//!     # use huelib2::Bridge;
 //!     # use std::net::{IpAddr, Ipv4Addr};
 //!     # let bridge = Bridge::new(IpAddr::V4(Ipv4Addr::new(192, 168, 1, 2)), String::new());
 //!     // let bridge = Bridge::new(...);
@@ -91,10 +91,10 @@
 //!
 //!     ```no_run
 //!     // Note that the trait `Creator` has to be in scope because the `execute` method is called.
-//!     use huelib::resource::{group, Creator};
+//!     use huelib2::resource::{group, Creator};
 //!
-//!     # fn main() -> huelib::Result<()> {
-//!     # use huelib::Bridge;
+//!     # fn main() -> huelib2::Result<()> {
+//!     # use huelib2::Bridge;
 //!     # use std::net::{IpAddr, Ipv4Addr};
 //!     # let bridge = Bridge::new(IpAddr::V4(Ipv4Addr::new(192, 168, 1, 2)), String::new());
 //!     // let bridge = Bridge::new(...);
@@ -113,10 +113,10 @@
 //! - Using the [`Bridge::set_light_state`] method:
 //!
 //!     ```no_run
-//!     use huelib::{resource::light, Color};
+//!     use huelib2::{resource::light, Color};
 //!
-//!     # fn main() -> huelib::Result<()> {
-//!     # use huelib::Bridge;
+//!     # fn main() -> huelib2::Result<()> {
+//!     # use huelib2::Bridge;
 //!     # use std::net::{IpAddr, Ipv4Addr};
 //!     # let bridge = Bridge::new(IpAddr::V4(Ipv4Addr::new(192, 168, 1, 2)), String::new());
 //!     // let bridge = Bridge::new(...);
@@ -132,11 +132,11 @@
 //!
 //!     ```no_run
 //!     // Note that the trait `Modifier` has to be in scope because the `execute` method is called.
-//!     use huelib::resource::{light, Modifier};
-//!     use huelib::Color;
+//!     use huelib2::resource::{light, Modifier};
+//!     use huelib2::Color;
 //!
-//!     # fn main() -> huelib::Result<()> {
-//!     # use huelib::Bridge;
+//!     # fn main() -> huelib2::Result<()> {
+//!     # use huelib2::Bridge;
 //!     # use std::net::{IpAddr, Ipv4Addr};
 //!     # let bridge = Bridge::new(IpAddr::V4(Ipv4Addr::new(192, 168, 1, 2)), String::new());
 //!     // let bridge = Bridge::new(...);
@@ -153,8 +153,8 @@
 //! Print the light with the identifier `1`:
 //!
 //! ```no_run
-//! # fn main() -> huelib::Result<()> {
-//! # use huelib::Bridge;
+//! # fn main() -> huelib2::Result<()> {
+//! # use huelib2::Bridge;
 //! # use std::net::{IpAddr, Ipv4Addr};
 //! # let bridge = Bridge::new(IpAddr::V4(Ipv4Addr::new(192, 168, 1, 2)), String::new());
 //! // let bridge = Bridge::new(...);
@@ -169,10 +169,10 @@
 //! Start searching for new sensors:
 //!
 //! ```no_run
-//! use huelib::resource::sensor;
+//! use huelib2::resource::sensor;
 //!
-//! # fn main() -> huelib::Result<()> {
-//! # use huelib::Bridge;
+//! # fn main() -> huelib2::Result<()> {
+//! # use huelib2::Bridge;
 //! # use std::net::{IpAddr, Ipv4Addr};
 //! # let bridge = Bridge::new(IpAddr::V4(Ipv4Addr::new(192, 168, 1, 2)), String::new());
 //! // let bridge = Bridge::new(...);
@@ -185,8 +185,8 @@
 //! Print the discovered sensors:
 //!
 //! ```no_run
-//! # fn main() -> huelib::Result<()> {
-//! # use huelib::Bridge;
+//! # fn main() -> huelib2::Result<()> {
+//! # use huelib2::Bridge;
 //! # use std::net::{IpAddr, Ipv4Addr};
 //! # let bridge = Bridge::new(IpAddr::V4(Ipv4Addr::new(192, 168, 1, 2)), String::new());
 //! // let bridge = Bridge::new(...);

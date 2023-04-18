@@ -13,17 +13,17 @@ use std::net::IpAddr;
 ///
 /// Get the IP addresses of all discovered bridges:
 /// ```no_run
-/// # fn main() -> Result<(), huelib::Error> {
-/// let ip_addresses = huelib::bridge::discover_nupnp()?;
+/// # fn main() -> Result<(), huelib2::Error> {
+/// let ip_addresses = huelib2::bridge::discover_nupnp()?;
 /// # Ok(())
 /// # }
 /// ```
 ///
 /// Register a user on the bridge that was first discovered:
 /// ```no_run
-/// use huelib::bridge;
+/// use huelib2::bridge;
 ///
-/// # fn main() -> Result<(), huelib::Error> {
+/// # fn main() -> Result<(), huelib2::Error> {
 /// let ip = bridge::discover_nupnp()?.pop().expect("found no bridges");
 /// let username = bridge::register_user(ip, "example")?;
 /// println!("Registered user: {}", username);

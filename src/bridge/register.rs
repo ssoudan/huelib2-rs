@@ -11,10 +11,10 @@ use std::net::IpAddr;
 ///
 /// Register a user and print the username:
 /// ```no_run
-/// use huelib::bridge;
+/// use huelib2::bridge;
 /// use std::net::{IpAddr, Ipv4Addr};
 ///
-/// # fn main() -> Result<(), huelib::Error> {
+/// # fn main() -> Result<(), huelib2::Error> {
 /// let bridge_ip = IpAddr::V4(Ipv4Addr::new(192, 168, 1, 2));
 /// let username = bridge::register_user(bridge_ip, "example")?;
 /// println!("Registered user with username `{}`", username);
@@ -52,10 +52,10 @@ where
 ///
 /// Register a user and print the username and clientkey:
 /// ```no_run
-/// use huelib::bridge;
+/// use huelib2::bridge;
 /// use std::net::{IpAddr, Ipv4Addr};
 ///
-/// # fn main() -> Result<(), huelib::Error> {
+/// # fn main() -> Result<(), huelib2::Error> {
 /// let bridge_ip = IpAddr::V4(Ipv4Addr::new(192, 168, 1, 2));
 /// let (username, clientkey) = bridge::register_user_with_clientkey(bridge_ip, "example")?;
 /// println!("Registered user with username `{}` and clientkey `{}`", username, clientkey);
