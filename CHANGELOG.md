@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <csr-read-only-do-not-edit/>
 
- - 204 commits contributed to the release over the course of 1122 calendar days.
+ - 205 commits contributed to the release over the course of 1122 calendar days.
  - 1 commit was understood as [conventional](https://www.conventionalcommits.org).
  - 3 unique issues were worked on: [#18](https://github.com/ssoudan/huelib2-rs/issues/18), [#19](https://github.com/ssoudan/huelib2-rs/issues/19), [#20](https://github.com/ssoudan/huelib2-rs/issues/20)
 
@@ -34,6 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  * **[#20](https://github.com/ssoudan/huelib2-rs/issues/20)**
     - Fix for TV is in the group list ([`9d7ad0d`](https://github.com/ssoudan/huelib2-rs/commit/9d7ad0d4e1c669c36d0eef61733c12db0c3ff830))
  * **Uncategorized**
+    - Release huelib2 v0.13.2 ([`a5eabda`](https://github.com/ssoudan/huelib2-rs/commit/a5eabda8aa232c9ae5c54b1136b88265ac5d9cde))
     - Release huelib2 v0.13.2 ([`71f56eb`](https://github.com/ssoudan/huelib2-rs/commit/71f56ebdd80a039aea9dc56c69179fd958fecfda))
     - [renaming] ([`c92e789`](https://github.com/ssoudan/huelib2-rs/commit/c92e78998077d3f67849dac8be636e72b301b359))
     - [+] removed chrono default feature ([`590aa01`](https://github.com/ssoudan/huelib2-rs/commit/590aa012e101ad2619dd9b61ba6fe5046925dfc1))
