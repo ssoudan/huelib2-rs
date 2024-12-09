@@ -16,7 +16,7 @@ serde = { version = "1.0.160", features = ["derive"] }
 serde_repr = "0.1.12"
 serde_json = "1.0.96"
 chrono = { version = "0.4.24", default-features = false, features = ["serde", "clock"] }
-thiserror = "1.0.40"
+thiserror = "2.0.6"
 derive_setters = "0.1.5"
 serde-xml-rs = { version = "0.6.0", optional = true }
 url = { version = "2.3.1", features = ["serde"], optional = true }
